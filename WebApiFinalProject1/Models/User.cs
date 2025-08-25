@@ -10,7 +10,7 @@
         public bool IsActive { get; set; }
 
         // Foreign Key
-        public string? RoleId { get; set; }
+        public string? Role { get; set; }
 
         // Navigation
         public Profile? Profile { get; set; }

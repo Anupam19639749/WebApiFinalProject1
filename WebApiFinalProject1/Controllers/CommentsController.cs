@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApiFinalProject1.Service;
 
@@ -15,6 +16,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "User, Admin")]
         public async Task<IActionResult> GetAllComments()
         {
             var comments = await _commentService.GetAllCommentsAsync();
@@ -22,6 +24,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "User, Admin")]
         public async Task<IActionResult> GetCommentById(int id)
         {
             var comment = await _commentService.GetCommentByIdAsync(id);
@@ -32,7 +35,24 @@ namespace WebApiFinalProject1.Controllers
             return Ok(comment);
         }
 
+        [HttpGet("user/{userId}/comments")]
+        [Authorize(Roles = "User, Admin")]
+        public async Task<IActionResult> GetCommentsByUser(int userId)
+        {
+            var result = await _commentService.GetCommentsByUserAsync(userId);
+            return Ok(result);
+        }
+
+        [HttpGet("post/{postId}/comments-with-user")]
+        [Authorize(Roles = "User, Admin")]
+        public async Task<IActionResult> GetCommentsForPostWithUser(int postId)
+        {
+            var result = await _commentService.GetCommentsForPostWithUserAsync(postId);
+            return Ok(result);
+        }
+
         [HttpPost]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> AddComment(Models.Comment comment)
         {
             var newComment = await _commentService.AddCommentAsync(comment);
@@ -40,6 +60,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> UpdateComment(int id, Models.Comment comment)
         {
             var updatedComment = await _commentService.UpdateCommentAsync(id, comment);
@@ -51,6 +72,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteComment(int id)
         {
             var result = await _commentService.DeleteCommentAsync(id);

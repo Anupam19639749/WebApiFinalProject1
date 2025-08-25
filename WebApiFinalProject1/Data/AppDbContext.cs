@@ -12,7 +12,6 @@ namespace WebApiFinalProject1.Data
         public DbSet<Profile> Profiles { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Comment> Comments { get; set; }
-        public DbSet<Role> Roles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -39,7 +38,7 @@ namespace WebApiFinalProject1.Data
                       .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // Post (One-to-Many with User)
+            // Post (One-to-Many with Post)
             modelBuilder.Entity<Post>(entity =>
             {
                 entity.HasKey(p => p.PostId);
@@ -72,15 +71,9 @@ namespace WebApiFinalProject1.Data
 
             // Seed Data
             modelBuilder.Entity<User>().HasData(
-                new User { UserId = 1, Username = "anupam", Email = "anupam@example.com", PasswordHash = "hashed1", IsActive = true, RoleId = "R001" },
-                new User { UserId = 2, Username = "priya", Email = "priya@example.com", PasswordHash = "hashed2", IsActive = true, RoleId = "R002" },
-                new User { UserId = 3, Username = "rahul", Email = "rahul@example.com", PasswordHash = "hashed3", IsActive = true, RoleId = "R003" }
-            );
-
-            modelBuilder.Entity<Role>().HasData(
-                new Role { RoleId = "R001", RoleName = "Admin" },
-                new Role { RoleId = "R002", RoleName = "Editor" },
-                new Role { RoleId = "R003", RoleName = "Viewer" }
+                new User { UserId = 1, Username = "anupam", Email = "anupam@example.com", PasswordHash = "hashed1", IsActive = true, Role = "Admin" },
+                new User { UserId = 2, Username = "priya", Email = "priya@example.com", PasswordHash = "hashed2", IsActive = true, Role = "User" },
+                new User { UserId = 3, Username = "rahul", Email = "rahul@example.com", PasswordHash = "hashed3", IsActive = true, Role = "User" }
             );
 
             modelBuilder.Entity<Profile>().HasData(

@@ -5,7 +5,7 @@ using WebApiFinalProject1.Models;
 
 namespace WebApiFinalProject1.Repository
 {
-    public class UserRepository : IBloggingAPI<User>
+    public class UserRepository : IBloggingAPI<User>, IUserRepository
     {
         private readonly AppDbContext _context; 
         public UserRepository(AppDbContext context)
@@ -46,6 +46,40 @@ namespace WebApiFinalProject1.Repository
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
             return true;
+        }
+
+        // ✅ 1. User details with counts
+        public async Task<object?> GetUserStatsAsync(int userId)
+        {
+            return await _context.Users
+                .Where(u => u.UserId == userId)
+                .Select(u => new
+                {
+                    u.UserId,
+                    u.Username,
+                    PostCount = u.Posts.Count,
+                    CommentCount = u.Comments.Count
+                })
+                .FirstOrDefaultAsync();
+        }
+
+        // ✅ 2. User’s last activity
+        public async Task<DateTime?> GetUserLastActivityAsync(int userId)
+        {
+            return await _context.Posts
+                .Where(p => p.UserId == userId)
+                .OrderByDescending(p => p.CreatedAt)
+                .Select(p => (DateTime?)p.CreatedAt)
+                .FirstOrDefaultAsync();
+        }
+
+        // 3. Users with no posts
+        public async Task<IEnumerable<User>> GetUsersWithNoPostsAsync()
+        {
+            return await _context.Users
+                .Include(u => u.Posts)
+                .Where(u => !u.Posts.Any())
+                .ToListAsync();
         }
     }
 }

@@ -5,9 +5,12 @@ namespace WebApiFinalProject1.Service
     public class UserService
     {
         private readonly IBloggingAPI<User> _userRepo;
-        public UserService(IBloggingAPI<User> userRepo)
+        private readonly IUserRepository _user;
+
+        public UserService(IBloggingAPI<User> userRepo, IUserRepository user)
         {
             _userRepo = userRepo;
+            _user = user;
         }
 
         public async Task<IEnumerable<User>> GetAllUsersAsync()
@@ -33,6 +36,22 @@ namespace WebApiFinalProject1.Service
         public async Task<bool> DeleteUserAsync(int id)
         {
             return await _userRepo.DeleteAsync(id);
+        }
+
+        // Extra Methods
+        public async Task<object?> GetUserStatsAsync(int userId)
+        {
+            return await _user.GetUserStatsAsync(userId);
+        }
+
+        public async Task<DateTime?> GetUserLastActivityAsync(int userId)
+        {
+            return await _user.GetUserLastActivityAsync(userId);
+        }
+
+        public async Task<IEnumerable<User>> GetUsersWithNoPostsAsync()
+        {
+            return await _user.GetUsersWithNoPostsAsync();
         }
     }
 }

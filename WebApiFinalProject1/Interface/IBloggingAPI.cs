@@ -10,4 +10,22 @@ namespace WebApiFinalProject1.Interface
         Task<T?> UpdateAsync(int id, T entity);
         Task<bool> DeleteAsync(int id);
     }
+
+    public interface IUserRepository
+    {
+        Task<object?> GetUserStatsAsync(int userId);
+        Task<DateTime?> GetUserLastActivityAsync(int userId);
+        Task<IEnumerable<User>> GetUsersWithNoPostsAsync();
+    }
+
+    public interface IPostRepository
+    {
+        Task<IEnumerable<object>> GetPostsWithUserProfileAsync();
+    }
+
+    public interface ICommentRepository
+    {
+        Task<IEnumerable<object>> GetCommentsForPostWithUserAsync(int postId);
+        Task<IEnumerable<object>> GetCommentsByUserAsync(int userId);
+    }
 }

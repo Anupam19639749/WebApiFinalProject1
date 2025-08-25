@@ -6,9 +6,11 @@ namespace WebApiFinalProject1.Service
     public class CommentService
     {
         private readonly IBloggingAPI<Comment> _commentRepo;
-        public CommentService(IBloggingAPI<Comment> commentRepo)
+        private readonly ICommentRepository _commentRepository;
+        public CommentService(IBloggingAPI<Comment> commentRepo, ICommentRepository commentRepository)
         {
             _commentRepo = commentRepo;
+            _commentRepository = commentRepository;
         }
         public async Task<IEnumerable<Comment>> GetAllCommentsAsync()
         {
@@ -29,6 +31,14 @@ namespace WebApiFinalProject1.Service
         public async Task<bool> DeleteCommentAsync(int id)
         {
             return await _commentRepo.DeleteAsync(id);
+        }
+        public async Task<IEnumerable<object>> GetCommentsForPostWithUserAsync(int postId)
+        {
+            return await _commentRepository.GetCommentsForPostWithUserAsync(postId);
+        }
+        public async Task<IEnumerable<object>> GetCommentsByUserAsync(int userId)
+        {
+            return await _commentRepository.GetCommentsByUserAsync(userId);
         }
     }
 }

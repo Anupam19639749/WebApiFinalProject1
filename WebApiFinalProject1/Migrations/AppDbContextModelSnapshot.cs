@@ -229,37 +229,6 @@ namespace WebApiFinalProject1.Migrations
                         });
                 });
 
-            modelBuilder.Entity("WebApiFinalProject1.Models.Role", b =>
-                {
-                    b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("RoleName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("RoleId");
-
-                    b.ToTable("Roles");
-
-                    b.HasData(
-                        new
-                        {
-                            RoleId = "R001",
-                            RoleName = "Admin"
-                        },
-                        new
-                        {
-                            RoleId = "R002",
-                            RoleName = "Editor"
-                        },
-                        new
-                        {
-                            RoleId = "R003",
-                            RoleName = "Viewer"
-                        });
-                });
-
             modelBuilder.Entity("WebApiFinalProject1.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -280,8 +249,8 @@ namespace WebApiFinalProject1.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -292,8 +261,6 @@ namespace WebApiFinalProject1.Migrations
 
                     b.HasIndex("Email")
                         .IsUnique();
-
-                    b.HasIndex("RoleId");
 
                     b.HasIndex("Username")
                         .IsUnique();
@@ -307,7 +274,7 @@ namespace WebApiFinalProject1.Migrations
                             Email = "anupam@example.com",
                             IsActive = true,
                             PasswordHash = "hashed1",
-                            RoleId = "R001",
+                            Role = "Admin",
                             Username = "anupam"
                         },
                         new
@@ -316,7 +283,7 @@ namespace WebApiFinalProject1.Migrations
                             Email = "priya@example.com",
                             IsActive = true,
                             PasswordHash = "hashed2",
-                            RoleId = "R002",
+                            Role = "User",
                             Username = "priya"
                         },
                         new
@@ -325,7 +292,7 @@ namespace WebApiFinalProject1.Migrations
                             Email = "rahul@example.com",
                             IsActive = true,
                             PasswordHash = "hashed3",
-                            RoleId = "R003",
+                            Role = "User",
                             Username = "rahul"
                         });
                 });
@@ -371,21 +338,9 @@ namespace WebApiFinalProject1.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("WebApiFinalProject1.Models.User", b =>
-                {
-                    b.HasOne("WebApiFinalProject1.Models.Role", null)
-                        .WithMany("Users")
-                        .HasForeignKey("RoleId");
-                });
-
             modelBuilder.Entity("WebApiFinalProject1.Models.Post", b =>
                 {
                     b.Navigation("Comments");
-                });
-
-            modelBuilder.Entity("WebApiFinalProject1.Models.Role", b =>
-                {
-                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("WebApiFinalProject1.Models.User", b =>

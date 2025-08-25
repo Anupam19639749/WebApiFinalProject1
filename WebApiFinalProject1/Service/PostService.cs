@@ -6,9 +6,11 @@ namespace WebApiFinalProject1.Service
     public class PostService
     {
         private readonly IBloggingAPI<Post> _postRepo;
-        public PostService(IBloggingAPI<Post> postRepo)
+        private readonly IPostRepository _post;
+        public PostService(IBloggingAPI<Post> postRepo, IPostRepository post)
         {
             _postRepo = postRepo;
+            _post = post;
         }
         public async Task<IEnumerable<Post>> GetAllPostsAsync()
         {
@@ -29,6 +31,10 @@ namespace WebApiFinalProject1.Service
         public async Task<bool> DeletePostAsync(int id)
         {
             return await _postRepo.DeleteAsync(id);
+        }
+        public async Task<IEnumerable<object>> GetPostsWithUserProfileAsync()
+        {
+            return await _post.GetPostsWithUserProfileAsync();
         }
     }
 }

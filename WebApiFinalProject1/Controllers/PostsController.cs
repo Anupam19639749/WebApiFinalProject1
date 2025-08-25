@@ -7,7 +7,6 @@ using WebApiFinalProject1.Service;
 namespace WebApiFinalProject1.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize]
     [ApiController]
     public class PostsController : ControllerBase
     {
@@ -18,6 +17,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "User, Admin")]
         public async Task<IActionResult> GetAllPosts()
         {
             var posts = await _postService.GetAllPostsAsync();
@@ -25,6 +25,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "User, Admin")]
         public async Task<IActionResult> GetPostById(int id)
         {
             var post = await _postService.GetPostByIdAsync(id);
@@ -35,7 +36,16 @@ namespace WebApiFinalProject1.Controllers
             return Ok(post);
         }
 
+        [HttpGet("with-user-profile")]
+        [Authorize(Roles = "User, Admin")]
+        public async Task<IActionResult> GetPostsWithUserProfile()
+        {
+            var result = await _postService.GetPostsWithUserProfileAsync();
+            return Ok(result);
+        }
+
         [HttpPost]
+        [Authorize(Roles = "Admin, User")]
         public async Task<IActionResult> AddPost(Post post)
         {
             var newPost = await _postService.AddPostAsync(post);
@@ -43,6 +53,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> UpdatePost(int id, Post post)
         {
             var updatedPost = await _postService.UpdatePostAsync(id, post);
@@ -54,6 +65,7 @@ namespace WebApiFinalProject1.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
             var result = await _postService.DeletePostAsync(id);

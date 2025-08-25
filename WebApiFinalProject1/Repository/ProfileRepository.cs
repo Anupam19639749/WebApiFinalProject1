@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApiFinalProject1.Data;
+using WebApiFinalProject1.DTOs;
 using WebApiFinalProject1.Interface;
 using WebApiFinalProject1.Models;
 namespace WebApiFinalProject1.Repository
@@ -25,6 +26,28 @@ namespace WebApiFinalProject1.Repository
             await _context.SaveChangesAsync();
             return entity;
         }
+
+        //public async Task<Profile> AddAsync(ProfileCreateDTO profileDto)
+        //{
+        //    var user = await _context.Users.FindAsync(profileDto.UserId);
+        //    if (user == null)
+        //    {
+        //        throw new Exception("User not found. Cannot create profile.");
+        //    }
+        //    var profile = new Profile
+        //    {
+        //        UserId = profileDto.UserId,
+        //        FirstName = profileDto.FirstName,
+        //        LastName = profileDto.LastName,
+        //        DateOfBirth = profileDto.DateOfBirth,
+        //        Bio = profileDto.Bio,
+        //        Location = profileDto.Location,
+        //        User = user  // attach user reference
+        //    };
+        //    _context.Profiles.Add(profile);
+        //    await _context.SaveChangesAsync();
+        //    return profile;
+        //}
         public async Task<Profile?> UpdateAsync(int id, Profile entity)
         {
             _context.Profiles.Update(entity);

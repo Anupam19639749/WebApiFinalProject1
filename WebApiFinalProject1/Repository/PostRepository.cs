@@ -5,7 +5,7 @@ using WebApiFinalProject1.Models;
 
 namespace WebApiFinalProject1.Repository
 {
-    public class PostRepository : IBloggingAPI<Post>
+    public class PostRepository : IBloggingAPI<Post>, IPostRepository
     {
         private readonly AppDbContext _context;
         public PostRepository(AppDbContext context)
@@ -31,16 +31,6 @@ namespace WebApiFinalProject1.Repository
             _context.Posts.Update(entity);
             await _context.SaveChangesAsync();
             return entity;
-            //var existingPost = await _context.Posts.FindAsync(id);
-            //if (existingPost == null) return null;
-
-            //existingPost.Title = entity.Title;
-            //existingPost.Content = entity.Content;
-            //existingPost.CreatedAt = entity.CreatedAt;
-            //existingPost.PlatformPosted = entity.PlatformPosted;
-            //existingPost.Category = entity.Category;
-            //await _context.SaveChangesAsync();
-            //return existingPost;
         }
         public async Task<bool> DeleteAsync(int id)
         {
@@ -51,5 +41,23 @@ namespace WebApiFinalProject1.Repository
             return true;
         }
 
+        public async Task<IEnumerable<object>> GetPostsWithUserProfileAsync()
+        {
+            var query = from p in _context.Posts
+                        join u in _context.Users on p.UserId equals u.UserId
+                        join pr in _context.Profiles on u.UserId equals pr.UserId
+                        select new
+                        {
+                            PostId = p.PostId,
+                            p.Title,
+                            p.Content,
+                            UserName = u.Username,
+                            u.Email,
+                            Bio = pr.Bio,
+                            Location = pr.Location
+                        };
+
+            return await query.ToListAsync();
+        }
     }
 }

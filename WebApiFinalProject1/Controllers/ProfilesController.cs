@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebApiFinalProject1.DTOs;
 using WebApiFinalProject1.Models;
 using WebApiFinalProject1.Service;
 
 namespace WebApiFinalProject1.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
     [ApiController]
     public class ProfilesController : ControllerBase
     {
