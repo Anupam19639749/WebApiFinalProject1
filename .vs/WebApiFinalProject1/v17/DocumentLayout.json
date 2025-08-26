@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\test_files\\commentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|solutionrelative:bloggingtest\\test_files\\commentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\test_files\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|solutionrelative:bloggingtest\\test_files\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\test_files\\postservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|solutionrelative:bloggingtest\\test_files\\postservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\test_files\\genericcrudtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|solutionrelative:bloggingtest\\test_files\\genericcrudtestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\interface\\ibloggingapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\interface\\ibloggingapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\test_files\\profileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|solutionrelative:bloggingtest\\test_files\\profileservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\test_files\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|solutionrelative:bloggingtest\\test_files\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\test_files\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|solutionrelative:bloggingtest\\test_files\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E637F8-9A34-49C5-8227-3CD2C6AA2968}|BloggingTest\\BloggingTest.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\bloggingtest\\bloggingtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -31,24 +83,8 @@
       "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\controllers\\profilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\interface\\ibloggingapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\interface\\ibloggingapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\migrations\\20250825081928_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,14 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\service\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\service\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|solutionrelative:webapifinalproject1\\service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B60052D8-6452-41D0-999D-FE47F1C53991}|WebApiFinalProject1\\WebApiFinalProject1.csproj|c:\\users\\30anu\\source\\repos\\webapifinalproject1\\webapifinalproject1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -142,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,82 +194,202 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "BloggingTest\\test_files\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\UserServiceTests.cs",
+              "RelativeToolTip": "BloggingTest\\test_files\\UserServiceTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T05:34:09.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\CommentService.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\CommentService.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\CommentService.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Service\\CommentService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T19:06:08.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\PostService.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\PostService.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\PostService.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Service\\PostService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T18:38:17.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\PostServiceTests.cs",
+              "RelativeDocumentMoniker": "BloggingTest\\test_files\\PostServiceTests.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\PostServiceTests.cs",
+              "RelativeToolTip": "BloggingTest\\test_files\\PostServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T05:56:41.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CommentServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\CommentServiceTests.cs",
+              "RelativeDocumentMoniker": "BloggingTest\\test_files\\CommentServiceTests.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\CommentServiceTests.cs",
+              "RelativeToolTip": "BloggingTest\\test_files\\CommentServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T05:56:51.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\UserService.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T14:15:11.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericCrudTestBase.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\GenericCrudTestBase.cs",
+              "RelativeDocumentMoniker": "BloggingTest\\test_files\\GenericCrudTestBase.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\GenericCrudTestBase.cs",
+              "RelativeToolTip": "BloggingTest\\test_files\\GenericCrudTestBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T05:55:16.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:55:04.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBloggingAPI.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:52:46.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfileServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\ProfileServiceTests.cs",
+              "RelativeDocumentMoniker": "BloggingTest\\test_files\\ProfileServiceTests.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\ProfileServiceTests.cs",
+              "RelativeToolTip": "BloggingTest\\test_files\\ProfileServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T05:56:34.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserTests.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\UserTests.cs",
               "RelativeDocumentMoniker": "BloggingTest\\test_files\\UserTests.cs",
               "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\UserTests.cs",
               "RelativeToolTip": "BloggingTest\\test_files\\UserTests.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwGIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T10:52:37.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BloggingTest.csproj",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\BloggingTest.csproj",
-              "RelativeDocumentMoniker": "BloggingTest\\BloggingTest.csproj",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\BloggingTest.csproj",
-              "RelativeToolTip": "BloggingTest\\BloggingTest.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-25T10:34:59.543Z",
+              "DocumentIndex": 12,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\CommentRepository.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Repository\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:55:45.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\UnitTest1.cs",
               "RelativeDocumentMoniker": "BloggingTest\\test_files\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\test_files\\UnitTest1.cs",
               "RelativeToolTip": "BloggingTest\\test_files\\UnitTest1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T10:26:18.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\UserService.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Service\\UserService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwBkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\ProfileRepository.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\ProfileRepository.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Repository\\ProfileRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T14:15:11.773Z"
+              "WhenOpened": "2025-08-24T13:55:15.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\CommentRepository.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\CommentRepository.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\CommentRepository.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Repository\\CommentRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAswEoAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\PostRepository.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\PostRepository.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Repository\\PostRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:55:45.864Z"
+              "WhenOpened": "2025-08-24T13:55:26.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Models\\User.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:06:41.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "Profile.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Models\\Profile.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Models\\Profile.cs",
@@ -261,7 +401,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebApiFinalProject1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Models\\User.cs",
+              "RelativeToolTip": "WebApiFinalProject1\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:06:41.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BloggingTest.csproj",
+              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\BloggingTest.csproj",
+              "RelativeDocumentMoniker": "BloggingTest\\BloggingTest.csproj",
+              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\BloggingTest\\BloggingTest.csproj",
+              "RelativeToolTip": "BloggingTest\\BloggingTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-25T10:34:59.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Models\\Post.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Models\\Post.cs",
@@ -273,19 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAwwE8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:55:04.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Controllers\\UsersController.cs",
@@ -297,19 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\PostRepository.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\PostRepository.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Repository\\PostRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:55:26.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\DTOs\\LoginDTO.cs",
@@ -321,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "ProfilesController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Controllers\\ProfilesController.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Controllers\\ProfilesController.cs",
@@ -333,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "PostsController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Controllers\\PostsController.cs",
@@ -345,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Controllers\\CommentsController.cs",
@@ -357,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Data\\AppDbContext.cs",
@@ -369,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Program.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Program.cs",
@@ -381,31 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProfileRepository.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\ProfileRepository.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Repository\\ProfileRepository.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Repository\\ProfileRepository.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Repository\\ProfileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:55:15.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IBloggingAPI.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Interface\\IBloggingAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:52:46.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "20250825081928_init.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Migrations\\20250825081928_init.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Migrations\\20250825081928_init.cs",
@@ -417,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Models\\Comment.cs",
@@ -429,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "ProfileCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\DTOs\\ProfileCreateDTO.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\DTOs\\ProfileCreateDTO.cs",
@@ -441,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "UserCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\DTOs\\UserCreateDTO.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\DTOs\\UserCreateDTO.cs",
@@ -453,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "TokenController.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Controllers\\TokenController.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Controllers\\TokenController.cs",
@@ -465,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "ProfileService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\ProfileService.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\ProfileService.cs",
@@ -477,31 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\PostService.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\PostService.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\PostService.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Service\\PostService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T18:38:17.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\CommentService.cs",
-              "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\CommentService.cs",
-              "ToolTip": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\CommentService.cs",
-              "RelativeToolTip": "WebApiFinalProject1\\Service\\CommentService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwCgAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T19:06:08.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\appsettings.json",
@@ -513,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Service\\TokenService.cs",
@@ -525,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "IToken.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Interface\\IToken.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Interface\\IToken.cs",
@@ -537,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "20250825045726_init.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Migrations\\20250825045726_init.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Migrations\\20250825045726_init.cs",
@@ -548,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "20250824153558_init.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Migrations\\20250824153558_init.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Migrations\\20250824153558_init.cs",
@@ -559,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "20250824150118_init.cs",
               "DocumentMoniker": "C:\\Users\\30anu\\source\\repos\\WebApiFinalProject1\\WebApiFinalProject1\\Migrations\\20250824150118_init.cs",
               "RelativeDocumentMoniker": "WebApiFinalProject1\\Migrations\\20250824150118_init.cs",
